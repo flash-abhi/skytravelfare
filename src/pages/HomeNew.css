@@ -3565,3 +3565,209 @@
     transform: scale(0.96);
   }
 }
+
+/* Give featured deal copy more room in the split-card layout. */
+@media (min-width: 701px) {
+  .aof-deals .deal-card {
+    display: grid !important;
+    grid-template-columns: minmax(118px, 45%) minmax(0, 55%) !important;
+    align-items: stretch;
+  }
+
+  .aof-deals .deal-card img {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 300px;
+    object-fit: cover;
+  }
+
+  .aof-deals .deal-card .body {
+    width: auto !important;
+    min-width: 0;
+    margin-top: 0 !important;
+    border-radius: 0 !important;
+  }
+}
+
+@media (min-width: 1201px) {
+  .aof-deals .deal-card {
+    grid-template-columns: minmax(112px, 42%) minmax(0, 58%) !important;
+  }
+}
+
+/* Responsive featured travel cards */
+.aof-deals {
+  overflow: clip;
+}
+
+.aof-deals .head {
+  flex-wrap: wrap;
+}
+
+.cards-wrap {
+  max-width: 100%;
+}
+
+.aof-deals .cards {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: clamp(14px, 1.4vw, 24px);
+  min-width: 0;
+}
+
+.deal-card {
+  min-width: 0;
+  display: flex !important;
+  flex-direction: column !important;
+  overflow: hidden !important;
+}
+
+.deal-card img {
+  width: 100%;
+  height: clamp(180px, 15vw, 260px);
+  flex: 0 0 auto !important;
+}
+
+.deal-card .body {
+  width: 100% !important;
+  flex: 1 1 auto !important;
+  min-height: 0;
+  margin-top: -22px;
+  padding: clamp(16px, 1.5vw, 22px);
+  box-sizing: border-box;
+}
+
+.deal-card h3 {
+  font-size: clamp(22px, 2.1vw, 32px);
+  overflow-wrap: anywhere;
+}
+
+.deal-card p {
+  font-size: clamp(15px, 1.2vw, 18px);
+  line-height: 1.35;
+}
+
+.deal-card a {
+  max-width: 100%;
+  white-space: nowrap;
+  align-self: flex-start;
+}
+
+.aof-deals .nav-btn.left {
+  left: max(-10px, -0.65vw);
+}
+
+.aof-deals .nav-btn.right {
+  right: max(-10px, -0.65vw);
+}
+
+@media (max-width: 1200px) {
+  .aof-deals .cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .aof-deals .nav-btn {
+    display: inline-flex;
+  }
+}
+
+@media (max-width: 700px) {
+  .aof-deals {
+    padding-top: 34px;
+  }
+
+  .aof-deals .head {
+    gap: 12px;
+  }
+
+  .aof-deals .head h2 {
+    font-size: clamp(26px, 9vw, 34px);
+  }
+
+  .aof-deals .head button {
+    width: fit-content;
+    min-height: 40px;
+    font-size: 15px;
+  }
+
+  .aof-deals .cards {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .deal-card img {
+    height: clamp(190px, 58vw, 240px);
+  }
+
+  .deal-card .body {
+    margin-top: 0;
+    border-radius: 0;
+  }
+
+  .deal-card-tag {
+    top: 14px;
+    left: 14px;
+    max-width: calc(100% - 28px);
+  }
+}
+
+@media (min-width: 701px) {
+  .aof-deals .deal-card {
+    display: grid !important;
+    grid-template-columns: minmax(108px, 40%) minmax(0, 60%) !important;
+    flex-direction: initial !important;
+  }
+
+  .aof-deals .deal-card img {
+    width: 100% !important;
+    height: 100% !important;
+    min-height: 300px;
+    object-fit: cover;
+  }
+
+  .aof-deals .deal-card .body {
+    width: auto !important;
+    min-width: 0;
+    margin-top: 0 !important;
+    border-radius: 0 !important;
+  }
+}
+
+@media (min-width: 1201px) {
+  .aof-deals .deal-card {
+    grid-template-columns: minmax(96px, 38%) minmax(0, 62%) !important;
+  }
+}
+
+/* Homepage form trip type radio polish */
+.aof-form-panel .form-trip-type {
+  background: #ffffff !important;
+  border: 1px solid #d5e6ef !important;
+  border-radius: 8px !important;
+  padding: 5px !important;
+}
+
+.aof-form-panel .form-trip-type .trip-radio {
+  border-radius: 7px !important;
+  color: #596477 !important;
+  font-weight: 800;
+}
+
+.aof-form-panel .form-trip-type .trip-radio:has(input:checked) {
+  background: #1fbd57 !important;
+  color: #ffffff !important;
+  box-shadow: none !important;
+}
+
+.aof-form-panel .form-trip-type .trip-radio span::before {
+  width: 17px !important;
+  height: 17px !important;
+  flex: 0 0 17px !important;
+  border-radius: 50% !important;
+  border: 2px solid #20b85a !important;
+  background: #ffffff !important;
+}
+
+.aof-form-panel .form-trip-type .trip-radio:has(input:checked) span::before {
+  border-color: #ffffff !important;
+  background: radial-gradient(circle, #20b85a 0 4px, #ffffff 5px) !important;
+}
