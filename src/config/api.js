@@ -6,10 +6,10 @@ const isDevelopment = process.env.NODE_ENV === 'development';
 
 export const API_URL = isDevelopment 
   ? 'http://localhost:5020' 
-  : 'http://api.skytravelfare.com';  // Production uses same-origin /api routes through Hostinger
+  : 'https://api.skytravelfare.com';  // Production uses same-origin /api routes through Hostinger
 
 export const SOCKET_URL = isDevelopment
   ? 'http://localhost:5020'
-  : 'http://api.skytravelfare.com';  // Production websocket uses the same domain
+  : 'https://api.skytravelfare.com';  // Production websocket uses the same domain
 
 export default API_URL;
