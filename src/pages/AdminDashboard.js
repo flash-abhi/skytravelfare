@@ -209,7 +209,7 @@ function AdminDashboard() {
     copyrightText: '© 2006-{year} Sky Fare. All rights reserved.',
     socialLinks: { facebook: '', twitter: '', instagram: '', linkedin: '' },
     colors: {
-      headerBg: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+      headerBg: 'linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%)',
       headerText: '#ffffff',
       footerBg: 'linear-gradient(135deg, #2d3748 0%, #1a202c 100%)',
       footerText: '#e2e8f0'
@@ -1535,7 +1535,7 @@ function AdminDashboard() {
         {/* Stats Grid */}
         <div className="backlink-stats-grid">
           <div className="backlink-stat-card">
-            <div className="stat-icon" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
+            <div className="stat-icon" style={{ background: 'linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%)' }}>
               <LinkIcon size={24} />
             </div>
             <div className="stat-info">
@@ -1917,7 +1917,7 @@ function AdminDashboard() {
         {/* Security Stats Grid */}
         <div className="security-stats-grid">
           <div className="security-stat-card">
-            <div className="stat-icon" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
+            <div className="stat-icon" style={{ background: 'linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%)' }}>
               <Shield size={24} />
             </div>
             <div className="stat-info">
@@ -2150,7 +2150,7 @@ function AdminDashboard() {
             <h2>Dashboard Overview</h2>
             <div className="stats-grid">
               <div className="stat-card">
-                <div className="stat-icon" style={{ background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)' }}>
+                <div className="stat-icon" style={{ background: 'linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%)' }}>
                   <Plane size={24} />
                 </div>
                 <div className="stat-info">
@@ -2841,7 +2841,7 @@ function AdminDashboard() {
                 <div className="analytics-dashboard">
                   <div className="analytics-stats">
                     <div className="analytic-card">
-                      <div className="analytic-icon" style={{background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'}}>
+                      <div className="analytic-icon" style={{background: 'linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%)'}}>
                         <Eye size={24} />
                       </div>
                       <div className="analytic-info">
@@ -3127,28 +3127,28 @@ function AdminDashboard() {
                 <div className="content-optimizer">
                   <div className="content-tips">
                     <div className="tip-card">
-                      <CheckCircle size={24} color="#1db954" />
+                      <CheckCircle size={24} color="#0ea5e9" />
                       <div>
                         <h4>Use Header Tags</h4>
                         <p>Structure content with H1, H2, H3 tags for better SEO</p>
                       </div>
                     </div>
                     <div className="tip-card">
-                      <CheckCircle size={24} color="#1db954" />
+                      <CheckCircle size={24} color="#0ea5e9" />
                       <div>
                         <h4>Optimize Images</h4>
                         <p>Add alt text and compress images for faster loading</p>
                       </div>
                     </div>
                     <div className="tip-card">
-                      <CheckCircle size={24} color="#1db954" />
+                      <CheckCircle size={24} color="#0ea5e9" />
                       <div>
                         <h4>Internal Linking</h4>
                         <p>Link to related pages to improve site navigation</p>
                       </div>
                     </div>
                     <div className="tip-card">
-                      <CheckCircle size={24} color="#1db954" />
+                      <CheckCircle size={24} color="#0ea5e9" />
                       <div>
                         <h4>Keyword Density</h4>
                         <p>Maintain 1-2% keyword density naturally in content</p>
@@ -4148,7 +4148,7 @@ function AdminDashboard() {
               
               {/* AI Blog Generation Section */}
               <div className="ai-blog-section" style={{
-                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                background: 'linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%)',
                 color: 'white',
                 padding: '24px',
                 borderRadius: '12px',
@@ -4166,7 +4166,7 @@ function AdminDashboard() {
                     className="ai-button"
                     style={{
                       background: 'white',
-                      color: '#667eea',
+                      color: '#0ea5e9',
                       border: 'none',
                       padding: '12px 24px',
                       borderRadius: '8px',
@@ -4204,7 +4204,7 @@ function AdminDashboard() {
                     className="ai-button"
                     style={{
                       background: autoPostingEnabled ? 'rgba(255,255,255,0.2)' : 'white',
-                      color: autoPostingEnabled ? 'white' : '#667eea',
+                      color: autoPostingEnabled ? 'white' : '#0ea5e9',
                       border: autoPostingEnabled ? '1px solid white' : 'none',
                       padding: '12px 24px',
                       borderRadius: '8px',
@@ -5638,7 +5638,7 @@ function AdminDashboard() {
                 {/* Header Colors */}
                 <div className="color-section">
                   <h4>Header</h4>
-                  <div className="color-preview-bar" style={{background: siteSettingsData.colors?.headerBg || 'linear-gradient(135deg,#667eea,#764ba2)', color: siteSettingsData.colors?.headerText || '#fff'}}>
+                  <div className="color-preview-bar" style={{background: siteSettingsData.colors?.headerBg || 'linear-gradient(135deg,#0ea5e9,#2563eb)', color: siteSettingsData.colors?.headerText || '#fff'}}>
                     <span>Header Preview</span>
                   </div>
                   <div className="form-grid">
@@ -5648,14 +5648,14 @@ function AdminDashboard() {
                         <input
                           type="color"
                           className="color-swatch"
-                          value={siteSettingsData.colors?.headerBg?.startsWith('#') ? siteSettingsData.colors.headerBg : '#667eea'}
+                          value={siteSettingsData.colors?.headerBg?.startsWith('#') ? siteSettingsData.colors.headerBg : '#0ea5e9'}
                           onChange={(e) => setSiteSettingsData({...siteSettingsData, colors: {...(siteSettingsData.colors||{}), headerBg: e.target.value}})}
                         />
                         <input
                           type="text"
                           value={siteSettingsData.colors?.headerBg || ''}
                           onChange={(e) => setSiteSettingsData({...siteSettingsData, colors: {...(siteSettingsData.colors||{}), headerBg: e.target.value}})}
-                          placeholder="#667eea or linear-gradient(135deg, #667eea 0%, #764ba2 100%)"
+                          placeholder="#0ea5e9 or linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%)"
                         />
                       </div>
                       <small>Enter a hex color or full CSS gradient value</small>
@@ -5729,8 +5729,8 @@ function AdminDashboard() {
                 <div className="color-presets">
                   <h4>Quick Presets</h4>
                   <div className="preset-grid">
-                    <button type="button" className="preset-btn" onClick={() => setSiteSettingsData({...siteSettingsData, colors: {...(siteSettingsData.colors||{}), headerBg: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', footerBg: 'linear-gradient(135deg, #2d3748 0%, #1a202c 100%)', headerText: '#ffffff', footerText: '#e2e8f0'}})}>
-                      <span className="preset-swatch" style={{background:'linear-gradient(135deg,#667eea,#764ba2)'}}></span>
+                    <button type="button" className="preset-btn" onClick={() => setSiteSettingsData({...siteSettingsData, colors: {...(siteSettingsData.colors||{}), headerBg: 'linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%)', footerBg: 'linear-gradient(135deg, #2d3748 0%, #1a202c 100%)', headerText: '#ffffff', footerText: '#e2e8f0'}})}>
+                      <span className="preset-swatch" style={{background:'linear-gradient(135deg,#0ea5e9,#2563eb)'}}></span>
                       Default Purple
                     </button>
                     <button type="button" className="preset-btn" onClick={() => setSiteSettingsData({...siteSettingsData, colors: {...(siteSettingsData.colors||{}), headerBg: 'linear-gradient(135deg, #1e3a5f 0%, #0f2027 100%)', footerBg: 'linear-gradient(135deg, #0f2027 0%, #1a1a2e 100%)', headerText: '#ffffff', footerText: '#cbd5e0'}})}>
@@ -5741,9 +5741,9 @@ function AdminDashboard() {
                       <span className="preset-swatch" style={{background:'linear-gradient(135deg,#e53e3e,#c53030)'}}></span>
                       Bold Red
                     </button>
-                    <button type="button" className="preset-btn" onClick={() => setSiteSettingsData({...siteSettingsData, colors: {...(siteSettingsData.colors||{}), headerBg: 'linear-gradient(135deg, #1db954 0%, #1db954 100%)', footerBg: 'linear-gradient(135deg, #1a202c 0%, #1db954 100%)', headerText: '#ffffff', footerText: '#c6f6d5'}})}>
-                      <span className="preset-swatch" style={{background:'linear-gradient(135deg,#1db954,#1db954)'}}></span>
-                      Forest Green
+                    <button type="button" className="preset-btn" onClick={() => setSiteSettingsData({...siteSettingsData, colors: {...(siteSettingsData.colors||{}), headerBg: 'linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%)', footerBg: 'linear-gradient(135deg, #1a202c 0%, #0ea5e9 100%)', headerText: '#ffffff', footerText: '#c6f6d5'}})}>
+                      <span className="preset-swatch" style={{background:'linear-gradient(135deg,#7dd3fc,#2563eb)'}}></span>
+                      Light Blue
                     </button>
                     <button type="button" className="preset-btn" onClick={() => setSiteSettingsData({...siteSettingsData, colors: {...(siteSettingsData.colors||{}), headerBg: 'linear-gradient(135deg, #ed8936 0%, #dd6b20 100%)', footerBg: 'linear-gradient(135deg, #2d3748 0%, #4a2c1a 100%)', headerText: '#ffffff', footerText: '#feebc8'}})}>
                       <span className="preset-swatch" style={{background:'linear-gradient(135deg,#ed8936,#dd6b20)'}}></span>

@@ -5,14 +5,14 @@
   --sky-page: #f8fcfb;
   --sky-surface: #ffffff;
   --sky-surface-soft: #f2faf8;
-  --sky-mint: #1db954;
-  --sky-mint-dark: #1db954;
-  --sky-mint-soft: #e6f8ed;
-  --sky-coral: #1db954;
-  --sky-coral-soft: #e6f8ed;
-  --sky-action: #1db954;
-  --sky-action-soft: #e6f8ed;
-  --sky-action-shadow: rgba(29, 185, 84, 0.24);
+  --sky-mint: #0ea5e9;
+  --sky-mint-dark: #0ea5e9;
+  --sky-mint-soft: #f0f9ff;
+  --sky-coral: #0ea5e9;
+  --sky-coral-soft: #f0f9ff;
+  --sky-action: #0ea5e9;
+  --sky-action-soft: #f0f9ff;
+  --sky-action-shadow: rgba(14, 165, 233, 0.24);
   --sky-gold: #dba72c;
   --sky-shadow: 0 20px 46px rgba(20, 33, 61, 0.10);
   --sky-shadow-soft: 0 12px 28px rgba(20, 33, 61, 0.08);
@@ -246,7 +246,7 @@ body {
 }
 
 .aof-service.active .aof-service-icon {
-  background: #1db954 !important;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%) !important;
   border-color: transparent !important;
   color: #ffffff !important;
   box-shadow: 0 14px 28px rgba(15, 118, 110, 0.30) !important;
@@ -365,7 +365,7 @@ body {
 }
 
 .trip-radio:has(input:checked) {
-  background: #1db954 !important;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%) !important;
   color: #ffffff !important;
   box-shadow: 0 8px 18px rgba(15, 118, 110, 0.18) !important;
 }
@@ -375,12 +375,12 @@ body {
   width: 13px !important;
   height: 13px !important;
   border-width: 2px !important;
-  border-color: #1db954 !important;
+  border-color: #0ea5e9 !important;
 }
 
 .trip-radio:has(input:checked) span::before,
 .aof-form-panel .form-trip-type .trip-radio:has(input:checked) span::before {
-  background: radial-gradient(circle, #f59e0b 0 4px, #ffffff 5px) !important;
+  background: radial-gradient(circle, #0ea5e9 0 4px, #ffffff 5px) !important;
   border-color: #ffffff !important;
 }
 
@@ -461,7 +461,7 @@ body {
   grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
   gap: 0 !important;
   border-radius: 999px !important;
-  background: #1db954 !important;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%) !important;
   box-shadow: 0 18px 36px rgba(15, 118, 110, 0.20) !important;
   overflow: hidden !important;
 }
@@ -494,7 +494,7 @@ body {
   transform: translateY(-50%);
   border-radius: 50%;
   background: #ffffff;
-  color: #1db954;
+  color: #0ea5e9;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -627,7 +627,7 @@ body {
   border-radius: 8px !important;
   border: 1px solid #cde4ef !important;
   background: #ffffff !important;
-  color: #1db954 !important;
+  color: #0ea5e9 !important;
   box-shadow: none !important;
 }
 
@@ -1221,7 +1221,7 @@ textarea:focus,
 
 .aof-form-panel .aof-search-cell > svg {
   flex: 0 0 auto;
-  color: #1db954 !important;
+  color: #0ea5e9 !important;
   width: 20px !important;
   height: 20px !important;
   stroke-width: 2.2 !important;
@@ -1301,7 +1301,7 @@ textarea:focus,
   border: 1px solid #d8e7f1 !important;
   border-radius: 8px !important;
   background: #effbf9 !important;
-  color: #1db954 !important;
+  color: #0ea5e9 !important;
   box-shadow: 0 8px 18px rgba(20, 33, 61, 0.10) !important;
   transform: translateY(-50%) !important;
   z-index: 20 !important;
@@ -1309,7 +1309,7 @@ textarea:focus,
 
 .aof-form-panel .swap-route-btn:hover {
   background: #dff6f1 !important;
-  color: #1db954 !important;
+  color: #0ea5e9 !important;
 }
 
 /* Site-wide action color pass */
@@ -1341,11 +1341,11 @@ a[class*="button"],
 .aof-callout .primary,
 .package-slate-body button,
 .sticky-call-button {
-  background: #1db954 !important;
-  background-color: #1db954 !important;
-  border-color: #1db954 !important;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%) !important;
+  background-color: #0ea5e9 !important;
+  border-color: #0ea5e9 !important;
   color: #ffffff !important;
-  box-shadow: 0 14px 28px rgba(29, 185, 84, 0.24) !important;
+  box-shadow: 0 14px 28px rgba(14, 165, 233, 0.24) !important;
 }
 
 button[type="submit"]:hover,
@@ -1375,9 +1375,9 @@ a[class*="button"]:hover,
 .aof-callout .primary:hover,
 .package-slate-body button:hover,
 .sticky-call-button:hover {
-  background: #1db954 !important;
-  background-color: #1db954 !important;
-  border-color: #1db954 !important;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%) !important;
+  background-color: #0ea5e9 !important;
+  border-color: #0ea5e9 !important;
   color: #ffffff !important;
 }
 

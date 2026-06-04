@@ -266,7 +266,7 @@ function Hotels() {
           <div className="hotels-hero-stats">
             <span><strong>18</strong> featured stays</span>
             <span><strong>24/7</strong> booking support</span>
-            <span><strong>Green</strong> verified picks</span>
+            <span><strong>Blue</strong> verified picks</span>
           </div>
         </div>
       </section>

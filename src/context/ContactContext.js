@@ -23,7 +23,7 @@ export const ContactProvider = ({ children }) => {
     copyrightText: `© 2006-${new Date().getFullYear()} Sky Fare. All rights reserved.`,
     socialLinks: { facebook: '', twitter: '', instagram: '', linkedin: '' },
     colors: {
-      headerBg: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+      headerBg: 'linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%)',
       headerText: '#ffffff',
       footerBg: 'linear-gradient(135deg, #2d3748 0%, #1a202c 100%)',
       footerText: '#e2e8f0'

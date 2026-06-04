@@ -1,4 +1,4 @@
-﻿import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   Plane,
@@ -76,13 +76,13 @@ const dealCards = [
 
 const coreValues = [
   { icon: Award, title: 'Clear Service', text: 'We explain booking options, provider rules, and next steps before you confirm.', tone: 'blue' },
-  { icon: Users, title: 'Traveler Focused', text: 'Our team helps you compare practical routes, dates, and cabin choices.', tone: 'green' },
+  { icon: Users, title: 'Traveler Focused', text: 'Our team helps you compare practical routes, dates, and cabin choices.', tone: 'sky' },
   { icon: Globe, title: 'Independent Search', text: 'We are an independent travel service and are not owned by any airline.', tone: 'cyan' },
   { icon: Heart, title: 'Transparent Help', text: 'We keep service details, contact information, and travel-provider policies easy to find.', tone: 'pink' },
 ];
 
 const whyChoose = [
-  { icon: DollarSign, title: 'Transparent Pricing', text: 'Fares, taxes, and any applicable service fees are shown before payment.', tone: 'green' },
+  { icon: DollarSign, title: 'Transparent Pricing', text: 'Fares, taxes, and any applicable service fees are shown before payment.', tone: 'sky' },
   { icon: Clock3, title: 'Guided Booking', text: 'Review flight options and confirm only after checking itinerary details.', tone: 'blue' },
   { icon: Shield, title: 'Secure Payments', text: 'Payment details are handled through secure checkout and verification steps.', tone: 'yellow' },
   { icon: Headphones, title: 'Travel Assistance', text: 'Contact our team for booking questions, itinerary changes, and provider-policy guidance.', tone: 'cyan' },

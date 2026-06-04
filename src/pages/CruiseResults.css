@@ -1,6 +1,6 @@
 .cruise-results-page {
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   padding: 20px;
 }
 
@@ -30,7 +30,7 @@
   margin-top: 20px;
   padding: 12px 30px;
   background: white;
-  color: #667eea;
+  color: #0ea5e9;
   border: none;
   border-radius: 10px;
   font-weight: 600;
@@ -122,7 +122,7 @@
 
 .filter-value {
   display: block;
-  color: #667eea;
+  color: #0ea5e9;
   font-weight: 700;
   font-size: 1.2rem;
 }
@@ -148,12 +148,12 @@
 }
 
 .rating-btn:hover {
-  border-color: #667eea;
+  border-color: #0ea5e9;
   background: #f7fafc;
 }
 
 .rating-btn.active {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
   border-color: transparent;
 }
@@ -171,8 +171,8 @@
 
 .filter-group select:focus {
   outline: none;
-  border-color: #667eea;
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  border-color: #0ea5e9;
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1);
 }
 
 /* Results Main */
@@ -189,7 +189,7 @@
 }
 
 .no-results svg {
-  color: #667eea;
+  color: #0ea5e9;
   margin-bottom: 20px;
 }
 
@@ -237,7 +237,7 @@
   position: absolute;
   top: 10px;
   right: 10px;
-  background: rgba(102, 126, 234, 0.95);
+  background: rgba(14, 165, 233, 0.95);
   color: white;
   padding: 8px 15px;
   border-radius: 20px;
@@ -261,7 +261,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
-  color: #667eea;
+  color: #0ea5e9;
   font-weight: 600;
   font-size: 1.1rem;
   margin: 0;
@@ -292,7 +292,7 @@
   padding: 10px;
   background: #f7fafc;
   border-radius: 8px;
-  border-left: 3px solid #667eea;
+  border-left: 3px solid #0ea5e9;
 }
 
 .cruise-pricing {
@@ -323,7 +323,7 @@
 .price {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #667eea;
+  color: #0ea5e9;
   line-height: 1;
 }
 
@@ -335,7 +335,7 @@
 
 .expand-btn {
   padding: 12px 24px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
   border: none;
   border-radius: 10px;
@@ -350,7 +350,7 @@
 
 .expand-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.4);
 }
 
 /* Expanded Details */
@@ -386,11 +386,11 @@
   padding: 15px;
   background: white;
   border-radius: 12px;
-  border-left: 4px solid #667eea;
+  border-left: 4px solid #0ea5e9;
 }
 
 .day-number {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
   border-radius: 10px;
   display: flex;
@@ -431,8 +431,8 @@
 }
 
 .cabin-option:hover {
-  border-color: #667eea;
-  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.2);
+  border-color: #0ea5e9;
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.2);
 }
 
 .cabin-option h4 {
@@ -442,7 +442,7 @@
 }
 
 .cabin-price {
-  color: #667eea;
+  color: #0ea5e9;
   font-size: 1.8rem;
   font-weight: 700;
   margin-bottom: 5px;
@@ -472,14 +472,14 @@
   content: '✓';
   position: absolute;
   left: 0;
-  color: #667eea;
+  color: #0ea5e9;
   font-weight: bold;
 }
 
 .select-cabin-btn {
   width: 100%;
   padding: 10px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
   border: none;
   border-radius: 8px;
@@ -490,7 +490,7 @@
 
 .select-cabin-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 15px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 6px 15px rgba(14, 165, 233, 0.4);
 }
 
 .expanded-grid {
@@ -523,7 +523,7 @@
   content: '→';
   position: absolute;
   left: 0;
-  color: #667eea;
+  color: #0ea5e9;
   font-weight: bold;
 }
 

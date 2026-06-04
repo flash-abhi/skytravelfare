@@ -1,6 +1,6 @@
 .cruise-confirmation-page {
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   padding: 2rem 0;
 }
 
@@ -26,8 +26,8 @@
 }
 
 .success-icon svg {
-  color: #1db954;
-  filter: drop-shadow(0 4px 12px rgba(16, 185, 129, 0.3));
+  color: #0ea5e9;
+  filter: drop-shadow(0 4px 12px rgba(14, 165, 233, 0.3));
 }
 
 @keyframes scaleIn {
@@ -57,11 +57,11 @@
   display: inline-flex;
   flex-direction: column;
   gap: 0.5rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
   padding: 1.5rem 3rem;
   border-radius: 12px;
-  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 8px 24px rgba(14, 165, 233, 0.3);
 }
 
 .booking-number span {
@@ -101,7 +101,7 @@
 }
 
 .confirmation-section h2 svg {
-  color: #667eea;
+  color: #0ea5e9;
 }
 
 /* Cruise Detail Card */
@@ -127,7 +127,7 @@
 }
 
 .cruise-line {
-  color: #667eea;
+  color: #0ea5e9;
   font-weight: 600;
   margin-bottom: 1.5rem;
 }
@@ -145,7 +145,7 @@
 }
 
 .detail-item svg {
-  color: #667eea;
+  color: #0ea5e9;
   flex-shrink: 0;
   margin-top: 2px;
 }
@@ -179,8 +179,8 @@
 }
 
 .passenger-card:hover {
-  border-color: #667eea;
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.1);
+  border-color: #0ea5e9;
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.1);
 }
 
 .passenger-header {
@@ -198,7 +198,7 @@
 }
 
 .lead-badge {
-  background: #667eea;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
   color: white;
   padding: 0.25rem 0.75rem;
   border-radius: 20px;
@@ -246,7 +246,7 @@
 }
 
 .contact-item svg {
-  color: #667eea;
+  color: #0ea5e9;
   flex-shrink: 0;
   margin-top: 2px;
 }
@@ -299,7 +299,7 @@
 }
 
 .payment-total strong {
-  color: #1db954;
+  color: #0ea5e9;
   font-size: 1.5rem;
 }
 
@@ -319,7 +319,7 @@
   background: #f8fafc;
   padding: 1.5rem;
   border-radius: 12px;
-  border-left: 4px solid #667eea;
+  border-left: 4px solid #0ea5e9;
 }
 
 .info-box h3 {
@@ -348,7 +348,7 @@
   content: '•';
   position: absolute;
   left: 0.5rem;
-  color: #667eea;
+  color: #0ea5e9;
   font-weight: bold;
 }
 
@@ -375,24 +375,24 @@
 }
 
 .download-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.3);
 }
 
 .download-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 8px 24px rgba(14, 165, 233, 0.4);
 }
 
 .home-btn {
   background: white;
-  color: #667eea;
-  border: 2px solid #667eea;
+  color: #0ea5e9;
+  border: 2px solid #0ea5e9;
 }
 
 .home-btn:hover {
-  background: #667eea;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
   color: white;
   transform: translateY(-2px);
 }

@@ -5,7 +5,7 @@
 }
 
 .booking-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
   padding: 40px 0;
   margin-bottom: 40px;
@@ -90,7 +90,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  color: #667eea;
+  color: #0ea5e9;
 }
 
 .route-visual .line {
@@ -157,7 +157,7 @@
 .seat-badge {
   width: 45px;
   height: 45px;
-  background: #667eea;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
   color: white;
   border-radius: 8px;
   display: flex;
@@ -185,7 +185,7 @@
 }
 
 .seat-price {
-  color: #667eea;
+  color: #0ea5e9;
   font-weight: 700;
   font-size: 16px;
 }
@@ -241,7 +241,7 @@
 
 .form-group input:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: #0ea5e9;
 }
 
 .payment-form {
@@ -298,13 +298,13 @@
 }
 
 .summary-total span:last-child {
-  color: #667eea;
+  color: #0ea5e9;
   font-size: 24px;
 }
 
 .confirm-booking-btn {
   width: 100%;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
   border: none;
   padding: 16px;
@@ -322,7 +322,7 @@
 
 .confirm-booking-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 25px rgba(14, 165, 233, 0.3);
 }
 
 .secure-payment {

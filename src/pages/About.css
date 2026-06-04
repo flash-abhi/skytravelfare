@@ -2,9 +2,9 @@
   min-height: 100vh;
   padding-bottom: 70px;
   background:
-    radial-gradient(circle at 8% 6%, rgba(40, 216, 107, 0.16), transparent 30rem),
-    radial-gradient(circle at 92% 12%, rgba(29, 185, 84, 0.12), transparent 28rem),
-    linear-gradient(180deg, #f8fffb 0%, #eefaf3 42%, #f7fbfd 100%);
+    radial-gradient(circle at 8% 6%, rgba(125, 211, 252, 0.16), transparent 30rem),
+    radial-gradient(circle at 92% 12%, rgba(14, 165, 233, 0.12), transparent 28rem),
+    linear-gradient(180deg, #f8fcff 0%, #e0f2fe 42%, #f7fbfd 100%);
   color: #14213d;
 }
 
@@ -18,7 +18,7 @@
   overflow: hidden;
   padding: clamp(48px, 7vw, 88px) 0 48px;
   background:
-    linear-gradient(120deg, rgba(20, 33, 61, 0.94), rgba(29, 185, 84, 0.72)),
+    linear-gradient(120deg, rgba(20, 33, 61, 0.94), rgba(14, 165, 233, 0.72)),
     url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1800&h=900&fit=crop") center/cover;
 }
 
@@ -50,22 +50,22 @@
   width: fit-content;
   min-height: 34px;
   padding: 0 14px;
-  border: 1px solid rgba(29, 185, 84, 0.38);
+  border: 1px solid rgba(14, 165, 233, 0.38);
   border-radius: 999px;
-  background: linear-gradient(135deg, #35e978 0%, #1db954 100%);
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
   color: #ffffff;
   font-size: 13px;
   font-weight: 850;
   letter-spacing: 0;
-  box-shadow: 0 12px 26px rgba(29, 185, 84, 0.24);
+  box-shadow: 0 12px 26px rgba(14, 165, 233, 0.24);
   backdrop-filter: blur(14px);
 }
 
 .section-kicker {
   margin-bottom: 12px;
-  background: #e6f8ed;
+  background: #f0f9ff;
   color: #168f42;
-  border-color: rgba(29, 185, 84, 0.22);
+  border-color: rgba(14, 165, 233, 0.22);
 }
 
 .about-hero h1 {
@@ -112,9 +112,9 @@
 
 .about-cta-btn {
   border: 0;
-  background: linear-gradient(135deg, #35e978 0%, #1db954 100%);
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
   color: #ffffff;
-  box-shadow: 0 16px 32px rgba(29, 185, 84, 0.28);
+  box-shadow: 0 16px 32px rgba(14, 165, 233, 0.28);
 }
 
 .about-secondary-btn {
@@ -130,12 +130,12 @@
 }
 
 .about-cta-btn:hover {
-  box-shadow: 0 22px 42px rgba(29, 185, 84, 0.36);
+  box-shadow: 0 22px 42px rgba(14, 165, 233, 0.36);
 }
 
 .about-secondary-btn:hover {
-  border-color: rgba(53, 233, 120, 0.7);
-  background: rgba(29, 185, 84, 0.18) !important;
+  border-color: rgba(14, 165, 233, 0.7);
+  background: rgba(14, 165, 233, 0.18) !important;
   box-shadow: 0 18px 34px rgba(20, 33, 61, 0.18);
 }
 
@@ -149,7 +149,7 @@
   border: 1px solid rgba(255, 255, 255, 0.24);
   border-radius: 8px;
   background:
-    radial-gradient(circle at 82% 22%, rgba(53, 233, 120, 0.22), transparent 26%),
+    radial-gradient(circle at 82% 22%, rgba(14, 165, 233, 0.22), transparent 26%),
     linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(244, 255, 248, 0.94));
   box-shadow: 0 28px 70px rgba(8, 31, 49, 0.28);
   backdrop-filter: blur(20px);
@@ -167,12 +167,12 @@
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(53, 233, 120, 0.34), transparent 68%);
+  background: radial-gradient(circle, rgba(14, 165, 233, 0.34), transparent 68%);
 }
 
 .about-hero-panel:hover {
   transform: translateY(-10px) scale(1.01);
-  border-color: rgba(53, 233, 120, 0.58);
+  border-color: rgba(14, 165, 233, 0.58);
   box-shadow: 0 36px 90px rgba(8, 31, 49, 0.34);
 }
 
@@ -185,9 +185,9 @@
   display: grid;
   place-items: center;
   border-radius: 50%;
-  background: linear-gradient(135deg, #35e978, #1db954);
+  background: linear-gradient(135deg, #7dd3fc, #2563eb);
   color: #ffffff;
-  box-shadow: 0 18px 34px rgba(29, 185, 84, 0.32);
+  box-shadow: 0 18px 34px rgba(14, 165, 233, 0.32);
   transition: transform 0.42s ease;
 }
 
@@ -227,7 +227,7 @@
 .stats-box,
 .values-card,
 .cta-card {
-  border: 1px solid rgba(29, 185, 84, 0.16);
+  border: 1px solid rgba(14, 165, 233, 0.16);
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.92);
   box-shadow: 0 18px 44px rgba(20, 33, 61, 0.08);
@@ -247,7 +247,7 @@
   position: absolute;
   inset: 0 auto 0 0;
   width: 6px;
-  background: linear-gradient(180deg, #35e978, #1db954);
+  background: linear-gradient(180deg, #7dd3fc, #2563eb);
 }
 
 .about-aof h2 {
@@ -299,7 +299,7 @@
   position: absolute;
   inset: 0;
   z-index: -1;
-  background: linear-gradient(135deg, rgba(53, 233, 120, 0.16), rgba(29, 185, 84, 0.06));
+  background: linear-gradient(135deg, rgba(14, 165, 233, 0.16), rgba(14, 165, 233, 0.06));
   opacity: 0;
   transition: opacity 0.38s ease;
 }
@@ -308,10 +308,10 @@
 .stat-item:hover,
 .commitment-item:hover {
   transform: translateY(-10px);
-  border-color: rgba(29, 185, 84, 0.45);
+  border-color: rgba(14, 165, 233, 0.45);
   box-shadow:
     0 28px 60px rgba(20, 33, 61, 0.12),
-    0 0 0 4px rgba(29, 185, 84, 0.07);
+    0 0 0 4px rgba(14, 165, 233, 0.07);
 }
 
 .highlight-card:hover::before,
@@ -327,8 +327,8 @@
   display: grid;
   place-items: center;
   border-radius: 8px;
-  background: #e6f8ed;
-  color: #1db954;
+  background: #f0f9ff;
+  color: #0ea5e9;
   transition:
     transform 0.38s ease,
     background 0.38s ease,
@@ -339,9 +339,9 @@
 .highlight-card:hover .highlight-icon,
 .stat-item:hover svg {
   transform: translateY(-4px) scale(1.08);
-  background: linear-gradient(135deg, #35e978, #1db954);
+  background: linear-gradient(135deg, #7dd3fc, #2563eb);
   color: #ffffff;
-  box-shadow: 0 16px 30px rgba(29, 185, 84, 0.24);
+  box-shadow: 0 16px 30px rgba(14, 165, 233, 0.24);
 }
 
 .highlight-card h3 {
@@ -365,9 +365,9 @@
 
 .stat-item {
   padding: 22px;
-  border: 1px solid rgba(29, 185, 84, 0.14);
+  border: 1px solid rgba(14, 165, 233, 0.14);
   border-radius: 8px;
-  background: #f8fffb;
+  background: #f8fcff;
 }
 
 .stat-item h3 {
@@ -393,9 +393,9 @@
   grid-template-columns: auto 1fr;
   gap: 16px;
   padding: 20px;
-  border: 1px solid rgba(29, 185, 84, 0.14);
+  border: 1px solid rgba(14, 165, 233, 0.14);
   border-radius: 8px;
-  background: #f8fffb;
+  background: #f8fcff;
 }
 
 .commitment-item > span {
@@ -412,7 +412,7 @@
 
 .commitment-item:hover > span {
   transform: rotate(-4deg) scale(1.08);
-  background: #1db954;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
 }
 
 .commitment-item h3 {
@@ -427,7 +427,7 @@
   padding: clamp(34px, 5vw, 56px);
   text-align: center;
   background:
-    linear-gradient(120deg, rgba(20, 33, 61, 0.96), rgba(29, 185, 84, 0.84)),
+    linear-gradient(120deg, rgba(20, 33, 61, 0.96), rgba(14, 165, 233, 0.84)),
     url("https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1400&h=700&fit=crop") center/cover;
   color: #ffffff;
   transition:

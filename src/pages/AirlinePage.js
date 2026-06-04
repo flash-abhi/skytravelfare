@@ -580,7 +580,7 @@ function AirlinePage() {
                 <div className="tips-list">
                   {airline.bookingTips.map((tip, index) => (
                     <div key={index} className="tip-item">
-                      <CheckCircle size={18} color="#1db954" />
+                      <CheckCircle size={18} color="#0ea5e9" />
                       <span>{tip}</span>
                     </div>
                   ))}

@@ -103,7 +103,7 @@
 }
 
 .footer-links li a:hover {
-  color: #667eea;
+  color: #0ea5e9;
   transform: translateX(5px);
 }
 
@@ -145,7 +145,7 @@
 }
 
 .contact-link:hover {
-  color: #667eea;
+  color: #0ea5e9;
 }
 
 .contact-text {
@@ -208,14 +208,14 @@
 }
 
 .newsletter-input:focus {
-  border-color: #667eea;
+  border-color: #0ea5e9;
   background: rgba(255, 255, 255, 0.15);
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1);
 }
 
 .newsletter-button {
   padding: 14px 32px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
   border: none;
   border-radius: 8px;
@@ -228,7 +228,7 @@
 
 .newsletter-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.4);
 }
 
 /* Trust & Payment Badges */
@@ -303,7 +303,7 @@
 }
 
 .copyright-legal a:hover {
-  color: #667eea;
+  color: #0ea5e9;
 }
 
 /* Floating Call Banner */

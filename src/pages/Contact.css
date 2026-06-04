@@ -4,7 +4,7 @@
 }
 
 .contact-hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
   padding: 60px 0 40px;
   text-align: center;
@@ -64,13 +64,13 @@
 
 .contact-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.2);
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.2);
 }
 
 .card-icon {
   width: 70px;
   height: 70px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -93,7 +93,7 @@
 
 .contact-link-main {
   display: inline-block;
-  color: #667eea;
+  color: #0ea5e9;
   text-decoration: none;
   font-weight: 600;
   font-size: 16px;
@@ -103,12 +103,12 @@
 }
 
 .contact-link-main:hover {
-  color: #764ba2;
+  color: #2563eb;
 }
 
 .contact-address {
   font-style: normal;
-  color: #667eea;
+  color: #0ea5e9;
   font-size: 15px;
   font-weight: 500;
   line-height: 1.6;
@@ -135,7 +135,7 @@
 }
 
 .form-header svg {
-  color: #667eea;
+  color: #0ea5e9;
   margin-bottom: 16px;
 }
 
@@ -190,8 +190,8 @@
 .form-group select:focus,
 .form-group textarea:focus {
   outline: none;
-  border-color: #667eea;
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  border-color: #0ea5e9;
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1);
 }
 
 .form-group textarea {
@@ -201,7 +201,7 @@
 
 .submit-button {
   padding: 16px 40px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
   border: none;
   border-radius: 8px;
@@ -218,7 +218,7 @@
 
 .submit-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 6px 16px rgba(14, 165, 233, 0.4);
 }
 
 .map-section {
@@ -892,18 +892,18 @@
   }
 }
 
-/* Green homepage-aligned contact redesign */
+/* Blue gradient homepage-aligned contact redesign */
 .contact-page {
   background:
-    radial-gradient(circle at 8% 6%, rgba(40, 216, 107, 0.16), transparent 30rem),
-    radial-gradient(circle at 92% 12%, rgba(29, 185, 84, 0.12), transparent 28rem),
-    linear-gradient(180deg, #f8fffb 0%, #eefaf3 42%, #f7fbfd 100%);
+    radial-gradient(circle at 8% 6%, rgba(125, 211, 252, 0.16), transparent 30rem),
+    radial-gradient(circle at 92% 12%, rgba(14, 165, 233, 0.12), transparent 28rem),
+    linear-gradient(180deg, #f8fcff 0%, #e0f2fe 42%, #f7fbfd 100%);
 }
 
 .contact-hero {
   padding: clamp(48px, 7vw, 86px) 0 clamp(58px, 7vw, 92px);
   background:
-    linear-gradient(120deg, rgba(20, 33, 61, 0.94), rgba(29, 185, 84, 0.72)),
+    linear-gradient(120deg, rgba(20, 33, 61, 0.94), rgba(14, 165, 233, 0.72)),
     url("https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1800&h=900&fit=crop") center/cover;
 }
 
@@ -921,7 +921,7 @@
 
 .contact-hero::after {
   background:
-    radial-gradient(circle at 78% 22%, rgba(53, 233, 120, 0.22), transparent 24%),
+    radial-gradient(circle at 78% 22%, rgba(14, 165, 233, 0.22), transparent 24%),
     linear-gradient(180deg, rgba(255, 255, 255, 0.08), transparent 54%);
 }
 
@@ -949,9 +949,9 @@
 
 .contact-kicker {
   border-radius: 999px;
-  background: linear-gradient(135deg, #35e978 0%, #1db954 100%);
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
   color: #ffffff;
-  box-shadow: 0 14px 28px rgba(29, 185, 84, 0.24);
+  box-shadow: 0 14px 28px rgba(14, 165, 233, 0.24);
 }
 
 .contact-redesign-section h2 {
@@ -963,7 +963,7 @@
 }
 
 .contact-card {
-  border-color: rgba(29, 185, 84, 0.16);
+  border-color: rgba(14, 165, 233, 0.16);
   border-radius: 8px;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 255, 251, 0.96));
@@ -976,26 +976,26 @@
 
 .contact-card:hover {
   transform: translateY(-10px) scale(1.01);
-  border-color: rgba(29, 185, 84, 0.48);
+  border-color: rgba(14, 165, 233, 0.48);
   box-shadow:
     0 30px 64px rgba(20, 33, 61, 0.12),
-    0 0 0 4px rgba(29, 185, 84, 0.07);
+    0 0 0 4px rgba(14, 165, 233, 0.07);
 }
 
 .contact-card-index {
-  background: #e6f8ed;
+  background: #f0f9ff;
   color: #168f42;
 }
 
 .contact-card .card-icon {
-  background: linear-gradient(135deg, #35e978 0%, #1db954 100%);
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
   color: #ffffff;
 }
 
 .contact-card:hover .card-icon {
-  background: linear-gradient(135deg, #35e978 0%, #1db954 100%);
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
   transform: scale(1.05);
-  box-shadow: 0 16px 30px rgba(29, 185, 84, 0.24);
+  box-shadow: 0 16px 30px rgba(14, 165, 233, 0.24);
 }
 
 .contact-card h3 {
@@ -1008,24 +1008,24 @@
 }
 
 .contact-card .contact-link-main:hover {
-  color: #1db954;
+  color: #0ea5e9;
 }
 
 .contact-form-container {
-  border-color: rgba(29, 185, 84, 0.18);
+  border-color: rgba(14, 165, 233, 0.18);
   border-radius: 8px;
   box-shadow: 0 24px 58px rgba(20, 33, 61, 0.12);
 }
 
 .contact-form-aside {
   background:
-    linear-gradient(155deg, rgba(20, 33, 61, 0.96), rgba(29, 185, 84, 0.84)),
+    linear-gradient(155deg, rgba(20, 33, 61, 0.96), rgba(14, 165, 233, 0.84)),
     url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1000&h=1200&fit=crop") center/cover;
 }
 
 .contact-form-trust {
   background: rgba(255, 255, 255, 0.16);
-  border: 1px solid rgba(53, 233, 120, 0.36);
+  border: 1px solid rgba(14, 165, 233, 0.36);
 }
 
 .contact-form .form-group input,
@@ -1037,24 +1037,24 @@
 .contact-form .form-group input:focus,
 .contact-form .form-group select:focus,
 .contact-form .form-group textarea:focus {
-  border-color: #1db954;
+  border-color: #0ea5e9;
 }
 
 .submit-button {
-  background: linear-gradient(135deg, #35e978 0%, #1db954 100%);
-  box-shadow: 0 14px 28px rgba(29, 185, 84, 0.24);
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
+  box-shadow: 0 14px 28px rgba(14, 165, 233, 0.24);
 }
 
 .submit-button:hover {
-  background: linear-gradient(135deg, #35e978 0%, #1db954 100%);
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
   transform: translateY(-3px);
-  box-shadow: 0 20px 38px rgba(29, 185, 84, 0.32);
+  box-shadow: 0 20px 38px rgba(14, 165, 233, 0.32);
 }
 
 .emergency-contact {
-  border-color: rgba(29, 185, 84, 0.18);
+  border-color: rgba(14, 165, 233, 0.18);
   background:
-    linear-gradient(120deg, rgba(20, 33, 61, 0.96), rgba(29, 185, 84, 0.84)),
+    linear-gradient(120deg, rgba(20, 33, 61, 0.96), rgba(14, 165, 233, 0.84)),
     url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1400&h=700&fit=crop") center/cover;
 }
 
@@ -1064,7 +1064,7 @@
 
 .emergency-button:hover {
   color: #ffffff;
-  background: linear-gradient(135deg, #35e978 0%, #1db954 100%);
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
 }
 
 /* Contact section redesign pass */
@@ -1094,7 +1094,7 @@
   min-height: 0;
   padding: 0;
   background: transparent;
-  color: rgba(29, 185, 84, 0.24);
+  color: rgba(14, 165, 233, 0.24);
   font-size: 38px;
   line-height: 1;
   writing-mode: horizontal-tb;
@@ -1104,7 +1104,7 @@
   width: 58px;
   height: 58px;
   border-radius: 14px;
-  box-shadow: 0 14px 28px rgba(29, 185, 84, 0.2);
+  box-shadow: 0 14px 28px rgba(14, 165, 233, 0.2);
 }
 
 .contact-card h3 {
@@ -1121,7 +1121,7 @@
 }
 
 .contact-card:hover .contact-card-index {
-  color: rgba(29, 185, 84, 0.42);
+  color: rgba(14, 165, 233, 0.42);
 }
 
 .contact-form-container {
@@ -1133,7 +1133,7 @@
 .contact-form-aside {
   padding: 34px;
   background:
-    linear-gradient(160deg, rgba(20, 33, 61, 0.94), rgba(29, 185, 84, 0.78)),
+    linear-gradient(160deg, rgba(20, 33, 61, 0.94), rgba(14, 165, 233, 0.78)),
     url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1000&h=1200&fit=crop") center/cover;
 }
 
@@ -1166,8 +1166,8 @@
 .contact-form .form-group input:focus,
 .contact-form .form-group select:focus,
 .contact-form .form-group textarea:focus {
-  border-color: #1db954 !important;
-  box-shadow: 0 0 0 4px rgba(29, 185, 84, 0.11) !important;
+  border-color: #0ea5e9 !important;
+  box-shadow: 0 0 0 4px rgba(14, 165, 233, 0.11) !important;
 }
 
 .contact-form .form-group input::placeholder,
@@ -1184,8 +1184,8 @@
   border-radius: 14px;
   padding: 46px 34px;
   background:
-    radial-gradient(circle at 88% 18%, rgba(53, 233, 120, 0.22), transparent 26%),
-    linear-gradient(120deg, rgba(20, 33, 61, 0.96), rgba(29, 185, 84, 0.84)),
+    radial-gradient(circle at 88% 18%, rgba(14, 165, 233, 0.22), transparent 26%),
+    linear-gradient(120deg, rgba(20, 33, 61, 0.96), rgba(14, 165, 233, 0.84)),
     url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1400&h=700&fit=crop") center/cover;
 }
 
@@ -1193,14 +1193,14 @@
   min-height: 58px;
   padding: 0 28px;
   border-radius: 14px;
-  background: linear-gradient(135deg, #35e978 0%, #1db954 100%) !important;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%) !important;
   color: #ffffff !important;
-  box-shadow: 0 18px 34px rgba(29, 185, 84, 0.28);
+  box-shadow: 0 18px 34px rgba(14, 165, 233, 0.28);
 }
 
 .emergency-button:hover {
   transform: translateY(-4px);
-  box-shadow: 0 24px 46px rgba(29, 185, 84, 0.36);
+  box-shadow: 0 24px 46px rgba(14, 165, 233, 0.36);
 }
 
 @media (max-width: 640px) {

@@ -12,7 +12,7 @@
   left: 0;
   right: 0;
   height: 400px;
-  background: radial-gradient(ellipse at top, rgba(102, 126, 234, 0.1) 0%, transparent 70%);
+  background: radial-gradient(ellipse at top, rgba(14, 165, 233, 0.1) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -23,13 +23,13 @@
 }
 
 .confirmation-header {
-  background: linear-gradient(135deg, #4ade80 0%, #1db954 50%, #1db954 100%);
+  background: linear-gradient(135deg, #4ade80 0%, #0ea5e9 50%, #0ea5e9 100%);
   color: white;
   padding: 100px 0 140px 0;
   text-align: center;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 10px 40px rgba(34, 197, 94, 0.3);
+  box-shadow: 0 10px 40px rgba(14, 165, 233, 0.3);
 }
 
 .confirmation-header::before {
@@ -159,10 +159,10 @@
 }
 
 .action-btn:hover {
-  border-color: #667eea;
-  color: #667eea;
+  border-color: #0ea5e9;
+  color: #0ea5e9;
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.2);
 }
 
 .confirmation-message {
@@ -174,13 +174,13 @@
   align-items: center;
   gap: 18px;
   margin-bottom: 30px;
-  border-left: 4px solid #667eea;
+  border-left: 4px solid #0ea5e9;
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
 
 .confirmation-message svg {
-  color: #667eea;
+  color: #0ea5e9;
   flex-shrink: 0;
 }
 
@@ -220,7 +220,7 @@
 }
 
 .pass-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #7c3aed 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 50%, #7c3aed 100%);
   padding: 24px 36px;
   display: flex;
   justify-content: space-between;
@@ -265,7 +265,7 @@
 
 .airline-logo-small:hover {
   transform: scale(1.05);
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.15);
 }
 
 .pass-body {
@@ -291,7 +291,7 @@
 .airport-code {
   font-size: 48px;
   font-weight: 900;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #7c3aed 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 50%, #7c3aed 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -361,7 +361,7 @@
 .route-line-animated {
   width: 100%;
   height: 3px;
-  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(90deg, #0ea5e9 0%, #2563eb 100%);
   border-radius: 10px;
   position: relative;
   display: flex;
@@ -371,11 +371,11 @@
 
 .route-plane {
   position: absolute;
-  color: #667eea;
+  color: #0ea5e9;
   background: white;
   border-radius: 50%;
   padding: 6px;
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.3);
   animation: planeMove 3s ease-in-out infinite;
 }
 
@@ -484,7 +484,7 @@
 }
 
 .card-header svg {
-  color: #667eea;
+  color: #0ea5e9;
 }
 
 .card-header h3 {
@@ -509,7 +509,7 @@
   background: linear-gradient(135deg, #fafbfc 0%, #f7f9fb 100%);
   padding: 20px;
   border-radius: 14px;
-  border-left: 5px solid #667eea;
+  border-left: 5px solid #0ea5e9;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
 }
@@ -521,7 +521,7 @@
 }
 
 .passenger-number {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #7c3aed 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 50%, #7c3aed 100%);
   color: white;
   width: 52px;
   height: 52px;
@@ -532,7 +532,7 @@
   font-weight: 800;
   font-size: 14px;
   flex-shrink: 0;
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.3);
 }
 
 .passenger-details {
@@ -557,7 +557,7 @@
 }
 
 .badge-type {
-  background: #667eea;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
   color: white;
   padding: 3px 10px;
   border-radius: 6px;
@@ -582,7 +582,7 @@
 }
 
 .passenger-passport svg {
-  color: #1db954;
+  color: #0ea5e9;
 }
 
 /* Payment Styles */
@@ -615,7 +615,7 @@
 }
 
 .price.discount {
-  color: #1db954;
+  color: #0ea5e9;
 }
 
 .price-divider {
@@ -638,7 +638,7 @@
   align-items: center;
   justify-content: center;
   gap: 12px;
-  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+  background: linear-gradient(135deg, #f0f9ff 0%, #dff6ff 100%);
   border: 2px solid #86efac;
   padding: 18px;
   border-radius: 14px;
@@ -677,7 +677,7 @@
 }
 
 .contact-item svg {
-  color: #667eea;
+  color: #0ea5e9;
   flex-shrink: 0;
 }
 
@@ -692,7 +692,7 @@
 }
 
 .guideline-header {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #7c3aed 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 50%, #7c3aed 100%);
   color: white;
   padding: 28px 32px;
   display: flex;
@@ -723,7 +723,7 @@
 .guideline-icon {
   width: 32px;
   height: 32px;
-  background: linear-gradient(135deg, #1db954 0%, #1db954 100%);
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
   color: white;
   border-radius: 50%;
   display: flex;
@@ -784,21 +784,21 @@
 }
 
 .btn-outline:hover {
-  border-color: #667eea;
-  color: #667eea;
+  border-color: #0ea5e9;
+  color: #0ea5e9;
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.15);
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.15);
 }
 
 .btn-primary-large {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #7c3aed 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 50%, #7c3aed 100%);
   color: white;
-  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.35);
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.35);
 }
 
 .btn-primary-large:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 36px rgba(102, 126, 234, 0.45);
+  box-shadow: 0 12px 36px rgba(14, 165, 233, 0.45);
 }
 
 /* Error State */
@@ -823,7 +823,7 @@
 }
 
 .error-state button {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
   padding: 14px 28px;
   border-radius: 10px;
@@ -835,7 +835,7 @@
 
 .error-state button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.3);
 }
 
 /* Print Styles */

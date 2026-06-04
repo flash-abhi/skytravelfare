@@ -776,14 +776,14 @@
   }
 }
 
-/* Full green airlines redesign */
+/* Full blue gradient airlines redesign */
 .airlines-directory {
   min-height: 100vh;
   padding-bottom: 76px;
   background:
-    radial-gradient(circle at 8% 6%, rgba(40, 216, 107, 0.16), transparent 30rem),
-    radial-gradient(circle at 92% 12%, rgba(29, 185, 84, 0.12), transparent 28rem),
-    linear-gradient(180deg, #f8fffb 0%, #eefaf3 42%, #f7fbfd 100%);
+    radial-gradient(circle at 8% 6%, rgba(125, 211, 252, 0.16), transparent 30rem),
+    radial-gradient(circle at 92% 12%, rgba(14, 165, 233, 0.12), transparent 28rem),
+    linear-gradient(180deg, #f8fcff 0%, #e0f2fe 42%, #f7fbfd 100%);
 }
 
 .directory-shell {
@@ -797,7 +797,7 @@
   align-items: center;
   text-align: center;
   background:
-    linear-gradient(120deg, rgba(20, 33, 61, 0.94), rgba(29, 185, 84, 0.72)),
+    linear-gradient(120deg, rgba(20, 33, 61, 0.94), rgba(14, 165, 233, 0.72)),
     url("https://images.unsplash.com/photo-1516387938699-a93567ec168e?w=1800&h=900&fit=crop") center/cover;
 }
 
@@ -815,7 +815,7 @@
 
 .directory-hero::after {
   background:
-    radial-gradient(circle at 80% 22%, rgba(53, 233, 120, 0.24), transparent 25%),
+    radial-gradient(circle at 80% 22%, rgba(14, 165, 233, 0.24), transparent 25%),
     linear-gradient(180deg, rgba(255, 255, 255, 0.08), transparent 54%);
 }
 
@@ -827,12 +827,12 @@
 .hero-badge {
   min-height: 38px;
   padding: 0 15px;
-  border: 1px solid rgba(53, 233, 120, 0.42);
+  border: 1px solid rgba(14, 165, 233, 0.42);
   border-radius: 999px;
-  background: linear-gradient(135deg, #35e978 0%, #1db954 100%);
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
   color: #ffffff;
   font-weight: 900;
-  box-shadow: 0 14px 28px rgba(29, 185, 84, 0.24);
+  box-shadow: 0 14px 28px rgba(14, 165, 233, 0.24);
 }
 
 .directory-hero h1 {
@@ -880,7 +880,7 @@
 .directory-main-card {
   margin-top: -74px;
   padding: 24px;
-  border: 1px solid rgba(29, 185, 84, 0.18);
+  border: 1px solid rgba(14, 165, 233, 0.18);
   border-radius: 14px;
   background: rgba(255, 255, 255, 0.97);
   box-shadow: 0 28px 70px rgba(20, 33, 61, 0.12);
@@ -895,7 +895,7 @@
 
 .control {
   height: 54px;
-  border-color: rgba(29, 185, 84, 0.2);
+  border-color: rgba(14, 165, 233, 0.2);
   border-radius: 999px;
   background: #ffffff;
   box-shadow: none;
@@ -904,18 +904,18 @@
 .control:hover,
 .control:focus-within {
   transform: translateY(-2px);
-  border-color: rgba(29, 185, 84, 0.55);
-  box-shadow: 0 14px 28px rgba(29, 185, 84, 0.12);
+  border-color: rgba(14, 165, 233, 0.55);
+  box-shadow: 0 14px 28px rgba(14, 165, 233, 0.12);
 }
 
 .control svg,
 .info-row svg {
-  color: #1db954;
+  color: #0ea5e9;
 }
 
 .results-count {
   border-radius: 999px;
-  background: #e6f8ed;
+  background: #f0f9ff;
   color: #244a34;
 }
 
@@ -934,7 +934,7 @@
   flex-direction: column;
   gap: 16px;
   padding: 22px;
-  border: 1px solid rgba(29, 185, 84, 0.16);
+  border: 1px solid rgba(14, 165, 233, 0.16);
   border-radius: 14px;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 255, 251, 0.96));
@@ -946,15 +946,15 @@
 }
 
 .airlines-directory .airline-card::before {
-  background: linear-gradient(135deg, rgba(53, 233, 120, 0.14), rgba(29, 185, 84, 0.05));
+  background: linear-gradient(135deg, rgba(14, 165, 233, 0.14), rgba(14, 165, 233, 0.05));
 }
 
 .airlines-directory .airline-card:hover {
   transform: translateY(-10px) scale(1.01);
-  border-color: rgba(29, 185, 84, 0.48);
+  border-color: rgba(14, 165, 233, 0.48);
   box-shadow:
     0 30px 64px rgba(20, 33, 61, 0.12),
-    0 0 0 4px rgba(29, 185, 84, 0.07);
+    0 0 0 4px rgba(14, 165, 233, 0.07);
 }
 
 .airline-card-number {
@@ -965,7 +965,7 @@
   align-self: auto;
   width: auto;
   background: transparent;
-  color: rgba(29, 185, 84, 0.24);
+  color: rgba(14, 165, 233, 0.24);
   font-size: 36px;
   line-height: 1;
   writing-mode: horizontal-tb;
@@ -982,7 +982,7 @@
 .airline-logo-small {
   width: 78px;
   height: 78px;
-  border: 1px solid rgba(29, 185, 84, 0.16);
+  border: 1px solid rgba(14, 165, 233, 0.16);
   border-radius: 14px;
   background: #ffffff;
 }
@@ -994,7 +994,7 @@
 
 .airline-code-small {
   border-radius: 999px;
-  background: #e6f8ed;
+  background: #f0f9ff;
   color: #168f42;
 }
 
@@ -1008,7 +1008,7 @@
 .info-row {
   padding: 10px;
   border-radius: 8px;
-  background: #f8fffb;
+  background: #f8fcff;
   color: #475569;
 }
 
@@ -1025,13 +1025,13 @@
   gap: 8px;
   padding: 0 14px;
   border-radius: 8px;
-  background: linear-gradient(135deg, #35e978 0%, #1db954 100%);
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
   color: #ffffff;
-  box-shadow: 0 14px 28px rgba(29, 185, 84, 0.2);
+  box-shadow: 0 14px 28px rgba(14, 165, 233, 0.2);
 }
 
 .airlines-directory .airline-card:hover .view-details {
-  background: linear-gradient(135deg, #35e978 0%, #1db954 100%);
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
 }
 
 .alliance-info {
@@ -1055,46 +1055,46 @@
 .alliance-card {
   min-height: 220px;
   padding: 26px;
-  border-color: rgba(29, 185, 84, 0.16);
+  border-color: rgba(14, 165, 233, 0.16);
   border-radius: 14px;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 255, 251, 0.96));
 }
 
 .alliance-card::before {
-  background: linear-gradient(135deg, rgba(53, 233, 120, 0.14), rgba(29, 185, 84, 0.05));
+  background: linear-gradient(135deg, rgba(14, 165, 233, 0.14), rgba(14, 165, 233, 0.05));
 }
 
 .alliance-card:hover {
-  border-color: rgba(29, 185, 84, 0.48);
+  border-color: rgba(14, 165, 233, 0.48);
 }
 
 .alliance-card > svg {
   border-radius: 14px;
-  background: #e6f8ed;
-  color: #1db954;
+  background: #f0f9ff;
+  color: #0ea5e9;
 }
 
 .alliance-count {
   border-radius: 999px;
-  background: #e6f8ed;
+  background: #f0f9ff;
   color: #168f42;
 }
 
 .directory-cta {
   margin-top: 34px;
-  border: 1px solid rgba(29, 185, 84, 0.2);
+  border: 1px solid rgba(14, 165, 233, 0.2);
   border-radius: 14px;
   background:
-    linear-gradient(120deg, rgba(20, 33, 61, 0.96), rgba(29, 185, 84, 0.84)),
+    linear-gradient(120deg, rgba(20, 33, 61, 0.96), rgba(14, 165, 233, 0.84)),
     url("https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1400&h=700&fit=crop") center/cover;
 }
 
 .cta-button,
 .cta-button:hover {
   border-radius: 8px;
-  background: linear-gradient(135deg, #35e978 0%, #1db954 100%);
-  box-shadow: 0 14px 28px rgba(29, 185, 84, 0.24);
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
+  box-shadow: 0 14px 28px rgba(14, 165, 233, 0.24);
 }
 
 .cta-button:hover {

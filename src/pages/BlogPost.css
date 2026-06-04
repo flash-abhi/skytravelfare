@@ -1,6 +1,6 @@
 .blog-post-container {
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   padding: 40px 20px;
 }
 
@@ -21,7 +21,7 @@
 .back-link {
   display: inline-flex;
   align-items: center;
-  color: #667eea;
+  color: #0ea5e9;
   text-decoration: none;
   font-weight: 600;
   margin-bottom: 20px;
@@ -29,7 +29,7 @@
 }
 
 .back-link:hover {
-  color: #764ba2;
+  color: #2563eb;
   transform: translateX(-5px);
 }
 
@@ -41,7 +41,7 @@
 }
 
 .tag {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
   padding: 6px 16px;
   border-radius: 20px;
@@ -129,7 +129,7 @@
 }
 
 .blog-content a {
-  color: #667eea;
+  color: #0ea5e9;
   text-decoration: none;
   font-weight: 600;
   border-bottom: 2px solid transparent;
@@ -137,13 +137,13 @@
 }
 
 .blog-content a:hover {
-  color: #764ba2;
-  border-bottom-color: #764ba2;
+  color: #2563eb;
+  border-bottom-color: #2563eb;
 }
 
 .blog-cta {
   padding: 40px 60px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
 }
 
 .cta-card {
@@ -185,23 +185,23 @@
 }
 
 .cta-button.primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
 }
 
 .cta-button.primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 10px 25px rgba(14, 165, 233, 0.4);
 }
 
 .cta-button.secondary {
   background: white;
-  color: #667eea;
-  border: 2px solid #667eea;
+  color: #0ea5e9;
+  border: 2px solid #0ea5e9;
 }
 
 .cta-button.secondary:hover {
-  background: #667eea;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
   color: white;
 }
 
@@ -258,9 +258,9 @@
 }
 
 .share-btn.copy:hover {
-  background: #667eea;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
   color: white;
-  border-color: #667eea;
+  border-color: #0ea5e9;
 }
 
 .loading-spinner {
@@ -315,7 +315,7 @@
 .error-message .back-link {
   display: inline-block;
   padding: 12px 24px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
   text-decoration: none;
   border-radius: 8px;
@@ -325,7 +325,7 @@
 
 .error-message .back-link:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 10px 25px rgba(14, 165, 233, 0.4);
 }
 
 /* Responsive */

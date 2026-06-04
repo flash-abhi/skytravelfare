@@ -28,7 +28,7 @@
   right: 0;
   bottom: 0;
   background: 
-    radial-gradient(circle at 20% 80%, rgba(102, 126, 234, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 20% 80%, rgba(14, 165, 233, 0.3) 0%, transparent 50%),
     radial-gradient(circle at 80% 20%, rgba(118, 75, 162, 0.3) 0%, transparent 50%),
     radial-gradient(circle at 40% 40%, rgba(99, 179, 237, 0.2) 0%, transparent 40%);
   animation: pulseGlow 8s ease-in-out infinite;
@@ -49,13 +49,13 @@
 .header-icon {
   width: 70px;
   height: 70px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto 20px;
-  box-shadow: 0 10px 40px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 10px 40px rgba(14, 165, 233, 0.4);
   animation: floatIcon 3s ease-in-out infinite;
 }
 
@@ -68,7 +68,7 @@
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 10px;
-  background: linear-gradient(135deg, #fff 0%, #e0e7ff 100%);
+  background: linear-gradient(135deg, #fff 0%, #dff6ff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -101,7 +101,7 @@
 
 .progress-fill {
   height: 100%;
-  background: linear-gradient(90deg, #1db954, #1db954);
+  background: linear-gradient(90deg, #7dd3fc, #2563eb);
   border-radius: 2px;
   transition: width 0.5s ease;
 }
@@ -145,14 +145,14 @@
 }
 
 .step.active .step-number {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   border-color: transparent;
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.5);
+  box-shadow: 0 8px 25px rgba(14, 165, 233, 0.5);
   transform: scale(1.1);
 }
 
 .step.completed .step-number {
-  background: linear-gradient(135deg, #1db954 0%, #1db954 100%);
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
   border-color: transparent;
   box-shadow: 0 4px 15px rgba(72, 187, 120, 0.4);
 }
@@ -222,7 +222,7 @@
 .section-icon {
   width: 56px;
   height: 56px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   border-radius: 16px;
   display: flex;
   align-items: center;
@@ -232,7 +232,7 @@
 }
 
 .section-icon.payment {
-  background: linear-gradient(135deg, #1db954 0%, #1db954 100%);
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
 }
 
 .section-header h2 {
@@ -278,7 +278,7 @@
 }
 
 .passenger-badge svg {
-  color: #667eea;
+  color: #0ea5e9;
 }
 
 .passenger-type-badge {
@@ -291,13 +291,13 @@
 }
 
 .passenger-type-badge.adult {
-  background: linear-gradient(135deg, #e0e7ff 0%, #c7d2fe 100%);
+  background: linear-gradient(135deg, #dff6ff 0%, #bae6fd 100%);
   color: #4338ca;
 }
 
 .passenger-type-badge.child {
-  background: linear-gradient(135deg, #d1fae5 0%, #a7f3d0 100%);
-  color: #047857;
+  background: linear-gradient(135deg, #dff6ff 0%, #bae6fd 100%);
+  color: #2563eb;
 }
 
 .passenger-type-badge.infant {
@@ -358,12 +358,12 @@
 .form-group input:focus,
 .form-group select:focus {
   outline: none;
-  border-color: #667eea;
-  box-shadow: 0 0 0 4px rgba(102, 126, 234, 0.1);
+  border-color: #0ea5e9;
+  box-shadow: 0 0 0 4px rgba(14, 165, 233, 0.1);
 }
 
 .form-group input.filled {
-  border-color: #1db954;
+  border-color: #0ea5e9;
   background: linear-gradient(135deg, #f0fff4 0%, #fff 100%);
 }
 
@@ -442,7 +442,7 @@
   display: flex;
   align-items: center;
   gap: 10px;
-  background: #f0fdf4;
+  background: #f0f9ff;
   border: 1px solid #86efac;
   border-radius: 8px;
   padding: 15px;
@@ -480,13 +480,13 @@
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: black;
   display: flex;
   gap: 10px ;
   margin: 4px;
   justify-content: space-around;
-  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 4px 15px rgba(14, 165, 233, 0.3);
 }
 
 
@@ -507,7 +507,7 @@
 
 .btn-primary:hover:not(:disabled) {
   transform: translateY(-3px);
-  box-shadow: 0 10px 30px rgba(102, 126, 234, 0.5);
+  box-shadow: 0 10px 30px rgba(14, 165, 233, 0.5);
 }
 
 .btn-primary:active:not(:disabled) {
@@ -542,8 +542,8 @@
 }
 
 .btn-secondary:hover {
-  border-color: #667eea;
-  color: #667eea;
+  border-color: #0ea5e9;
+  color: #0ea5e9;
   background: linear-gradient(135deg, #f8f9ff 0%, #fff 100%);
   transform: translateY(-2px);
 }
@@ -569,13 +569,13 @@
 }
 
 .btn-skip:hover {
-  color: #667eea;
+  color: #0ea5e9;
   background: linear-gradient(135deg, #f8f9ff 0%, #fff 100%);
 }
 
 /* Complete Payment Button */
 .btn-complete {
-  background: linear-gradient(135deg, #1db954 0%, #1db954 100%);
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
   box-shadow: 0 4px 15px rgba(72, 187, 120, 0.3);
 }
 
@@ -639,7 +639,7 @@
 
 .summary-airline-logo:hover {
   transform: scale(1.05);
-  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.2);
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.2);
 }
 
 .summary-airline {
@@ -660,7 +660,7 @@
 .route-code {
   font-size: 26px;
   font-weight: 700;
-  color: #667eea;
+  color: #0ea5e9;
   letter-spacing: -0.5px;
 }
 
@@ -688,7 +688,7 @@
 }
 
 .detail-item svg {
-  color: #667eea;
+  color: #0ea5e9;
 }
 
 .summary-section {
@@ -713,19 +713,19 @@
 }
 
 .seat-badge {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
   padding: 8px 14px;
   border-radius: 8px;
   font-size: 13px;
   font-weight: 600;
-  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 2px 8px rgba(14, 165, 233, 0.3);
   transition: all 0.3s ease;
 }
 
 .seat-badge:hover {
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.4);
 }
 
 /* Pricing Section */
@@ -751,7 +751,7 @@
 }
 
 .price-row.total {
-  border-top: 2px solid #667eea;
+  border-top: 2px solid #0ea5e9;
   border-bottom: none;
   margin-top: 12px;
   padding-top: 16px;
@@ -761,14 +761,14 @@
 }
 
 .price-row.total span:last-child {
-  color: #667eea;
+  color: #0ea5e9;
 }
 
 .summary-note {
   display: flex;
   align-items: center;
   gap: 10px;
-  background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
+  background: linear-gradient(135deg, #f0f9ff 0%, #dff6ff 100%);
   padding: 14px 16px;
   border-radius: 10px;
   margin-top: 20px;
@@ -858,7 +858,7 @@
   border-radius: 8px;
   font-size: 13px;
   font-weight: 600;
-  color: #1db954;
+  color: #0ea5e9;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
@@ -1179,7 +1179,7 @@
 
 .seat-card {
   background: white;
-  border: 2px solid #667eea;
+  border: 2px solid #0ea5e9;
   border-radius: 12px;
   padding: 20px 16px;
   display: flex;
@@ -1187,18 +1187,18 @@
   align-items: center;
   gap: 10px;
   transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.1);
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.1);
 }
 
 .seat-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.2);
+  box-shadow: 0 8px 24px rgba(14, 165, 233, 0.2);
 }
 
 .seat-number {
   font-size: 28px;
   font-weight: 700;
-  color: #667eea;
+  color: #0ea5e9;
   letter-spacing: -0.5px;
 }
 
@@ -1214,7 +1214,7 @@
 .seat-price {
   font-size: 15px;
   font-weight: 600;
-  color: #1db954;
+  color: #0ea5e9;
 }
 
 .no-seats-selected {
@@ -1285,14 +1285,14 @@
   width: 36px;
   height: 36px;
   border-radius: 10px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 16px;
   font-weight: 700;
-  box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 2px 8px rgba(14, 165, 233, 0.3);
 }
 
 .fare-rule-content {
@@ -1431,8 +1431,8 @@
 }
 
 .step.completed .step-number {
-  background: #1db954;
-  box-shadow: 0 6px 18px rgba(22, 163, 74, 0.35);
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
+  box-shadow: 0 6px 18px rgba(14, 165, 233, 0.35);
 }
 
 .time-banner {

@@ -1,6 +1,6 @@
 .flights-page {
   min-height: 100vh;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
 }
 
 .hero-section {
@@ -56,27 +56,34 @@
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
+  border: 1px solid transparent;
+  background: #ffffff;
   transition: all 0.3s;
   color: #4a5568;
 }
 
 .trip-type-selector label:hover {
-  background-color: #f7fafc;
+  background: #f0f9ff;
+  border-color: #bae6fd;
+  color: #0369a1;
 }
 
 .trip-type-selector label:has(input[type="radio"]:checked) {
-  background-color: #edf2f7;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
+  color: #ffffff;
   font-weight: 600;
+  border-color: transparent;
+  box-shadow: 0 10px 22px rgba(14, 165, 233, 0.28);
 }
 
 .trip-type-selector label:has(input[type="radio"][value="round-trip"]:checked) {
-  background-color: #ffedd5;
-  color: #ea580c;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
+  color: #ffffff;
 }
 
 .trip-type-selector label:has(input[type="radio"][value="one-way"]:checked) {
-  background-color: #dcfce7;
-  color: #1db954;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
+  color: #ffffff;
 }
 
 .trip-type-selector input[type="radio"] {
@@ -86,11 +93,11 @@
 }
 
 .trip-type-selector input[type="radio"][value="round-trip"] {
-  accent-color: #ea580c;
+  accent-color: #0ea5e9;
 }
 
 .trip-type-selector input[type="radio"][value="one-way"] {
-  accent-color: #1db954;
+  accent-color: #0ea5e9;
 }
 
 /* Search Form Grid */
@@ -127,7 +134,7 @@
 .input-with-icon > svg {
   position: absolute;
   left: 12px;
-  color: #667eea;
+  color: #0ea5e9;
   pointer-events: none;
   z-index: 1;
 }
@@ -150,8 +157,8 @@
 .input-with-icon input:focus,
 .input-with-icon select:focus {
   outline: none;
-  border-color: #667eea;
-  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+  border-color: #0ea5e9;
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1);
 }
 
 .input-with-icon select {
@@ -162,7 +169,7 @@
 
 /* Swap Button */
 .swap-btn {
-  background: #667eea;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
   color: white;
   border: none;
   border-radius: 50%;
@@ -177,7 +184,7 @@
 }
 
 .swap-btn:hover {
-  background: #764ba2;
+  background: #2563eb;
   transform: rotate(180deg);
 }
 
@@ -206,13 +213,13 @@
 }
 
 .passengers-summary:hover {
-  border-color: #667eea;
+  border-color: #0ea5e9;
 }
 
 .passengers-summary svg {
   position: absolute;
   left: 12px;
-  color: #667eea;
+  color: #0ea5e9;
   flex-shrink: 0;
 }
 
@@ -275,7 +282,7 @@
   cursor: pointer;
   font-size: 18px;
   font-weight: 600;
-  color: #667eea;
+  color: #0ea5e9;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -283,9 +290,9 @@
 }
 
 .passenger-controls button:hover:not(:disabled) {
-  background: #667eea;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
   color: white;
-  border-color: #667eea;
+  border-color: #0ea5e9;
 }
 
 .passenger-controls button:disabled {
@@ -324,13 +331,13 @@
   width: 20px;
   height: 20px;
   cursor: pointer;
-  accent-color: #667eea;
+  accent-color: #0ea5e9;
 }
 
 /* Search Button */
 .search-flights-btn {
   padding: 16px 32px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
   border: none;
   border-radius: 12px;
@@ -347,7 +354,7 @@
 
 .search-flights-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.4);
 }
 
 .search-flights-btn:active {
@@ -427,7 +434,7 @@
 }
 
 .section-header h2 svg {
-  color: #667eea;
+  color: #0ea5e9;
 }
 
 .section-header p {
@@ -457,8 +464,8 @@
 
 .route-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 12px 24px rgba(102, 126, 234, 0.2);
-  border-color: #667eea;
+  box-shadow: 0 12px 24px rgba(14, 165, 233, 0.2);
+  border-color: #0ea5e9;
 }
 
 .route-header {
@@ -483,7 +490,7 @@
 }
 
 .route-icon {
-  color: #667eea;
+  color: #0ea5e9;
   margin: 4px 0;
   transform: rotate(90deg);
 }
@@ -501,8 +508,8 @@
 }
 
 .price-trend.down {
-  background: #dcfce7;
-  color: #1db954;
+  background: #dff6ff;
+  color: #0ea5e9;
 }
 
 .price-trend.up {
@@ -511,7 +518,7 @@
 }
 
 .price-trend.stable {
-  background: #e0e7ff;
+  background: #dff6ff;
   color: #4f46e5;
 }
 
@@ -555,7 +562,7 @@
 .price {
   font-size: 28px;
   font-weight: 700;
-  color: #667eea;
+  color: #0ea5e9;
   line-height: 1;
 }
 
@@ -568,7 +575,7 @@
 .view-flights-btn {
   width: 100%;
   padding: 12px 24px;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
   border: none;
   border-radius: 10px;
@@ -580,7 +587,7 @@
 
 .view-flights-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 16px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 6px 16px rgba(14, 165, 233, 0.4);
 }
 
 .view-flights-btn:active {
@@ -589,7 +596,7 @@
 
 /* Reviews Section */
 .reviews-section {
-  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  background: linear-gradient(135deg, #f8fafc 0%, #dff6ff 100%);
   padding: 80px 20px;
 }
 
@@ -614,7 +621,7 @@
 
 .review-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.15);
+  box-shadow: 0 8px 24px rgba(14, 165, 233, 0.15);
 }
 
 .review-header {
@@ -635,7 +642,7 @@
   width: 48px;
   height: 48px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
   display: flex;
   align-items: center;
@@ -679,7 +686,7 @@
   position: absolute;
   top: -8px;
   left: -8px;
-  color: #e0e7ff;
+  color: #dff6ff;
   opacity: 0.5;
 }
 

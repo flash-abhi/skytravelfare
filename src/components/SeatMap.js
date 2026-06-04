@@ -235,7 +235,7 @@ function SeatMap({ flight, passengers, onSeatsSelected, onClose }) {
             <span>Exit Row (+$25-$50)</span>
           </div>
           <div className="info-item">
-            <div className="legend-box premium" style={{background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'}}></div>
+            <div className="legend-box premium" style={{background: 'linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%)'}}></div>
             <span>Premium Economy (+$50)</span>
           </div>
           <div className="info-item">

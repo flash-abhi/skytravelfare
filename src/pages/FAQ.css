@@ -4,7 +4,7 @@
 }
 
 .faq-hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
   padding: 60px 0 40px;
   text-align: center;
@@ -37,7 +37,7 @@
   color: #2d3748;
   margin: 0 0 24px 0;
   padding-bottom: 12px;
-  border-bottom: 3px solid #667eea;
+  border-bottom: 3px solid #0ea5e9;
 }
 
 .faq-list {
@@ -55,7 +55,7 @@
 }
 
 .faq-item.open {
-  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.15);
 }
 
 .faq-question {
@@ -76,16 +76,16 @@
 
 .faq-question:hover {
   background: #f7fafc;
-  color: #667eea;
+  color: #0ea5e9;
 }
 
 .faq-item.open .faq-question {
-  color: #667eea;
+  color: #0ea5e9;
 }
 
 .faq-question svg {
   flex-shrink: 0;
-  color: #667eea;
+  color: #0ea5e9;
 }
 
 .faq-answer {
@@ -112,7 +112,7 @@
 }
 
 .faq-contact {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
   padding: 50px;
   border-radius: 12px;
@@ -153,7 +153,7 @@
 
 .btn-primary {
   background: white;
-  color: #667eea;
+  color: #0ea5e9;
 }
 
 .btn-primary:hover {

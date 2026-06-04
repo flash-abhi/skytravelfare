@@ -81,7 +81,7 @@ function ForgotPassword() {
                 <a 
                   href={message.link} 
                   style={{ 
-                    color: '#667eea', 
+                    color: '#0ea5e9', 
                     wordBreak: 'break-all',
                     display: 'block',
                     padding: '10px',

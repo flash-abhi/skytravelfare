@@ -4,7 +4,7 @@
 }
 
 .legal-hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
   padding: 60px 0 40px;
   text-align: center;
@@ -41,7 +41,7 @@
   color: #2d3748;
   margin: 0 0 16px 0;
   padding-bottom: 12px;
-  border-bottom: 2px solid #667eea;
+  border-bottom: 2px solid #0ea5e9;
 }
 
 .legal-content h3 {

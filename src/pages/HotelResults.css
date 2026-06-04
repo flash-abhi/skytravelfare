@@ -6,7 +6,7 @@
 
 /* Search Summary */
 .hr-search-summary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
   padding: 22px 0;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -62,7 +62,7 @@
 
 .hr-modify-search-btn {
   background: white;
-  color: #667eea;
+  color: #0ea5e9;
   border: none;
   padding: 12px 28px;
   border-radius: 10px;
@@ -222,7 +222,7 @@
 }
 
 .sort-select:focus {
-  border-color: #667eea;
+  border-color: #0ea5e9;
 }
 
 /* Hotel Card */
@@ -245,7 +245,7 @@
 
 .hotel-card:hover {
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
-  border-color: #667eea;
+  border-color: #0ea5e9;
   transform: translateY(-2px);
 }
 
@@ -307,7 +307,7 @@
 }
 
 .hotel-location svg {
-  color: #667eea;
+  color: #0ea5e9;
 }
 
 .distance {
@@ -343,7 +343,7 @@
 }
 
 .amenity-tag svg {
-  color: #667eea;
+  color: #0ea5e9;
 }
 
 .hotel-room-info {
@@ -363,7 +363,7 @@
 }
 
 .room-details svg {
-  color: #667eea;
+  color: #0ea5e9;
 }
 
 .sleeps {
@@ -402,7 +402,7 @@
 .detail-section h5 {
   font-size: 14px;
   font-weight: 700;
-  color: #667eea;
+  color: #0ea5e9;
   margin-bottom: 12px;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -438,7 +438,7 @@
 }
 
 .detail-row .value.price-highlight {
-  color: #1db954;
+  color: #0ea5e9;
   font-weight: 700;
   font-size: 16px;
 }
@@ -540,17 +540,17 @@
 
 .view-details-btn {
   background: white;
-  color: #667eea;
-  border: 2px solid #667eea;
+  color: #0ea5e9;
+  border: 2px solid #0ea5e9;
 }
 
 .view-details-btn:hover {
-  background: #667eea;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
   color: white;
 }
 
 .book-btn {
-  background: linear-gradient(135deg, #1db954 0%, #1db954 100%);
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
   color: white;
   box-shadow: 0 4px 15px rgba(72, 187, 120, 0.3);
 }
@@ -573,7 +573,7 @@
 
 .loading-state svg.spinner {
   animation: spin 1s linear infinite;
-  color: #667eea;
+  color: #0ea5e9;
   margin-bottom: 20px;
 }
 
@@ -606,7 +606,7 @@
 
 .retry-btn,
 .back-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0ea5e9 0%, #2563eb 100%);
   color: white;
   padding: 12px 28px;
   border-radius: 10px;
@@ -619,7 +619,7 @@
 .retry-btn:hover,
 .back-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.3);
 }
 
 /* Responsive */

@@ -1,4 +1,4 @@
-﻿.home-aof {
+.home-aof {
   background: #f3f3f4;
   color: #1f2530;
 }
@@ -75,11 +75,12 @@
   margin: 28px 0 18px;
   display: flex;
   gap: 12px;
-  background: rgba(255, 255, 255, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.28);
+  background: rgba(240, 249, 255, 0.9);
+  border: 1px solid #bae6fd;
   width: fit-content;
   padding: 6px;
   border-radius: 999px;
+  box-shadow: 0 10px 26px rgba(14, 165, 233, 0.12);
 }
 
 .trip-radio {
@@ -88,17 +89,27 @@
   gap: 8px;
   color: #1f2530;
   font-size: 15px;
-  font-weight: 600;
-  padding: 8px 16px;
+  font-weight: 800;
+  padding: 10px 18px;
+  border: 1px solid transparent;
   border-radius: 999px;
+  background: #ffffff;
   cursor: pointer;
-  transition: background 0.2s ease, color 0.2s ease;
+  min-height: 44px;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.trip-radio:hover {
+  border-color: #7dd3fc;
+  color: #0369a1;
+  transform: translateY(-1px);
 }
 
 .trip-radio:has(input:checked) {
-  background: #f16427;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
   color: #fff;
-  box-shadow: 0 4px 10px rgba(241, 100, 39, 0.35);
+  border-color: transparent;
+  box-shadow: 0 12px 26px rgba(14, 165, 233, 0.32);
 }
 
 .trip-radio input {
@@ -120,13 +131,13 @@
   width: 16px;
   height: 16px;
   border-radius: 50%;
-  border: 2px solid #f16427;
+  border: 2px solid #0ea5e9;
   background: transparent;
   box-sizing: border-box;
 }
 
 .trip-radio:has(input:checked) span::before {
-  background: radial-gradient(circle, #ffffff 0 4px, #f16427 5px);
+  background: radial-gradient(circle, #ffffff 0 4px, #0ea5e9 5px);
   border-color: #ffffff;
 }
 
@@ -688,7 +699,7 @@
 }
 
 .icon.blue { background: #dbe6f8; color: #2a73ea; }
-.icon.green { background: #dfe9e5; color: #1f915f; }
+.icon.sky { background: #f0f9ff; color: #0ea5e9; }
 .icon.cyan { background: #d8eff5; color: #20b8e4; }
 .icon.pink { background: #f2e2e8; color: #df3a4b; }
 .icon.yellow { background: #fff1ba; color: #d9a60a; }
@@ -3059,31 +3070,31 @@
   color: #24384b;
 }
 
-/* Green airline preview treatment */
+/* Blue gradient airline preview treatment */
 .aof-airlines {
   background:
-    radial-gradient(circle at 7% 4%, rgba(40, 216, 107, 0.18), transparent 32%),
-    radial-gradient(circle at 94% 12%, rgba(29, 185, 84, 0.16), transparent 30%),
-    linear-gradient(180deg, #f8fffb 0%, #eefaf3 100%);
+    radial-gradient(circle at 7% 4%, rgba(14, 165, 233, 0.18), transparent 32%),
+    radial-gradient(circle at 94% 12%, rgba(14, 165, 233, 0.16), transparent 30%),
+    linear-gradient(180deg, #f8fcff 0%, #e0f2fe 100%);
 }
 
 .aof-airlines::before {
   background:
-    linear-gradient(90deg, rgba(29, 185, 84, 0.08), transparent 36%),
-    repeating-linear-gradient(135deg, rgba(29, 185, 84, 0.055) 0 1px, transparent 1px 18px);
+    linear-gradient(90deg, rgba(14, 165, 233, 0.08), transparent 36%),
+    repeating-linear-gradient(135deg, rgba(125, 211, 252, 0.12) 0 1px, transparent 1px 18px);
   opacity: 0.8;
 }
 
 .aof-airlines .head h2 span {
-  color: #1db954;
+  color: #0ea5e9;
 }
 
 .aof-airlines .head:hover h2 span {
-  text-shadow: 0 12px 24px rgba(29, 185, 84, 0.24);
+  text-shadow: 0 12px 24px rgba(14, 165, 233, 0.24);
 }
 
 .aof-airlines input {
-  border-color: rgba(29, 185, 84, 0.22);
+  border-color: rgba(14, 165, 233, 0.22);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.96);
   box-shadow:
@@ -3093,14 +3104,14 @@
 
 .aof-airlines input:hover,
 .aof-airlines input:focus {
-  border-color: rgba(29, 185, 84, 0.58);
+  border-color: rgba(14, 165, 233, 0.58);
   box-shadow:
-    0 20px 42px rgba(29, 185, 84, 0.16),
-    0 0 0 4px rgba(29, 185, 84, 0.12);
+    0 20px 42px rgba(14, 165, 233, 0.16),
+    0 0 0 4px rgba(14, 165, 233, 0.12);
 }
 
 .airline-card {
-  border-color: rgba(29, 185, 84, 0.16);
+  border-color: rgba(14, 165, 233, 0.16);
   border-radius: 16px;
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 255, 251, 0.96));
@@ -3109,38 +3120,38 @@
 
 .airline-card::before {
   background:
-    linear-gradient(135deg, rgba(40, 216, 107, 0.18), rgba(29, 185, 84, 0.08));
+    linear-gradient(135deg, rgba(14, 165, 233, 0.18), rgba(14, 165, 233, 0.08));
 }
 
 .airline-card::after {
-  background: linear-gradient(135deg, #28d86b 0%, #1db954 100%);
-  box-shadow: 0 10px 22px rgba(29, 185, 84, 0.22);
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
+  box-shadow: 0 10px 22px rgba(14, 165, 233, 0.22);
 }
 
 .airline-card:hover {
   transform: translateY(-10px) scale(1.01);
-  border-color: rgba(29, 185, 84, 0.48);
+  border-color: rgba(14, 165, 233, 0.48);
   background: #ffffff;
   box-shadow:
     0 30px 64px rgba(20, 33, 61, 0.12),
-    0 0 0 4px rgba(29, 185, 84, 0.08);
+    0 0 0 4px rgba(14, 165, 233, 0.08);
 }
 
 .airline-card:hover::after {
-  background: linear-gradient(135deg, #35e978 0%, #1db954 100%);
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%);
 }
 
 .airline-card .logo {
-  border-color: rgba(29, 185, 84, 0.16);
+  border-color: rgba(14, 165, 233, 0.16);
   background:
-    linear-gradient(145deg, #ffffff, #effaf3);
+    linear-gradient(145deg, #ffffff, #eef8ff);
 }
 
 .airline-card:hover .logo {
-  border-color: rgba(29, 185, 84, 0.34);
+  border-color: rgba(14, 165, 233, 0.34);
   background:
-    linear-gradient(145deg, #ffffff, #f4fff7);
-  box-shadow: 0 16px 34px rgba(29, 185, 84, 0.16);
+    linear-gradient(145deg, #ffffff, #f0f9ff);
+  box-shadow: 0 16px 34px rgba(14, 165, 233, 0.16);
 }
 
 .airline-card:hover h3 {
@@ -3740,22 +3751,52 @@
 
 /* Homepage form trip type radio polish */
 .aof-form-panel .form-trip-type {
-  background: #ffffff !important;
-  border: 1px solid #d5e6ef !important;
-  border-radius: 8px !important;
-  padding: 5px !important;
+  background: #f0f9ff !important;
+  border: 1px solid #bae6fd !important;
+  border-radius: 999px !important;
+  padding: 6px !important;
+  box-shadow: 0 10px 26px rgba(14, 165, 233, 0.12) !important;
 }
 
 .aof-form-panel .form-trip-type .trip-radio {
-  border-radius: 7px !important;
+  min-height: 44px !important;
+  border: 1px solid transparent !important;
+  border-radius: 999px !important;
+  background: #ffffff !important;
   color: #596477 !important;
   font-weight: 800;
+  box-shadow: 0 2px 8px rgba(14, 165, 233, 0.06) !important;
+  transform: translateY(0);
+  transition:
+    background 0.28s ease,
+    border-color 0.28s ease,
+    box-shadow 0.28s ease,
+    color 0.24s ease,
+    transform 0.24s ease !important;
+}
+
+.aof-form-panel .form-trip-type .trip-radio:hover {
+  border-color: #7dd3fc !important;
+  color: #0369a1 !important;
+  box-shadow: 0 8px 18px rgba(14, 165, 233, 0.16) !important;
+  transform: translateY(-1px);
+}
+
+.aof-form-panel .form-trip-type .trip-radio:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.14) !important;
 }
 
 .aof-form-panel .form-trip-type .trip-radio:has(input:checked) {
-  background: #1fbd57 !important;
+  background: linear-gradient(135deg, #7dd3fc 0%, #2563eb 100%) !important;
   color: #ffffff !important;
-  box-shadow: none !important;
+  border-color: transparent !important;
+  box-shadow: 0 10px 22px rgba(14, 165, 233, 0.28) !important;
+}
+
+.aof-form-panel .form-trip-type .trip-radio:has(input:checked):hover {
+  box-shadow: 0 14px 28px rgba(14, 165, 233, 0.34) !important;
+  transform: translateY(-1px);
 }
 
 .aof-form-panel .form-trip-type .trip-radio span::before {
@@ -3763,11 +3804,37 @@
   height: 17px !important;
   flex: 0 0 17px !important;
   border-radius: 50% !important;
-  border: 2px solid #20b85a !important;
+  border: 2px solid #0ea5e9 !important;
   background: #ffffff !important;
+  transition:
+    background 0.28s ease,
+    border-color 0.28s ease,
+    box-shadow 0.28s ease !important;
 }
 
 .aof-form-panel .form-trip-type .trip-radio:has(input:checked) span::before {
   border-color: #ffffff !important;
-  background: radial-gradient(circle, #20b85a 0 4px, #ffffff 5px) !important;
+  background: radial-gradient(circle, #2563eb 0 4px, #ffffff 5px) !important;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.22) !important;
+}
+
+/* Keep passenger picker fully visible in the compact home form */
+.aof-form-panel .aof-search-cell.passengers {
+  position: relative !important;
+  overflow: visible !important;
+  z-index: 7000 !important;
+}
+
+.aof-form-panel .aof-passenger-dropdown {
+  top: auto !important;
+  bottom: calc(100% + 10px) !important;
+  right: 0 !important;
+  z-index: 8000 !important;
+  max-height: min(320px, calc(100vh - 130px)) !important;
+  overflow-y: auto !important;
+  overscroll-behavior: contain;
+}
+
+.aof-form-panel .aof-passenger-dropdown .row:last-of-type {
+  margin-bottom: 12px;
 }
